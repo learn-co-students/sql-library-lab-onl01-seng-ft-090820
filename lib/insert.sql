@@ -1,13 +1,17 @@
 INSERT INTO series (id, title, author_id, subgenre_id) 
 VALUES 
-(1, "A Song of Ice and Fire", 1, 1), (2, "Second Series", 2, 2);
+(1, "A Song of Ice and Fire", 1, 1), 
+(2, "Second Series", 2, 2);
+
 
 INSERT INTO subgenres (id, name) 
-VALUES (1, "medieval"), (2, "space opera");
+VALUES (1, "medieval"), 
+(2, "space opera");
 
 
 INSERT INTO authors (id, name) 
-VALUES (1, "George R. R. Martin"), (2, "Second Author");
+VALUES (1, "George R. R. Martin"), 
+(2, "Second Author");
 
 
 INSERT INTO books (id, title, year, series_id) 
@@ -43,6 +47,7 @@ VALUES (1, 1, 1),
 (6, 2, 3), 
 (7, 3, 3), 
 (8, 1, 4);
+
 
 INSERT INTO character_books (id, book_id, character_id) 
 VALUES (9, 4, 5), 
